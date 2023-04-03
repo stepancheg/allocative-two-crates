@@ -1,0 +1,10 @@
+[package]
+name = "allocative-two-crates"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+allocative-anyhow-1 = { path = "allocative-anyhow-1", package = "allocative-anyhow" }
+allocative-anyhow-2 = { path = "allocative-anyhow-2", package = "allocative-anyhow" }
